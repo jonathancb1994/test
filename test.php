@@ -9,7 +9,7 @@ for($i=1;$i<=100;$i++){
             echo "lino"."<br>"; /* For multiples of 3 */
             break;
         case($i%5==0) :
-            echo "IT"."<br>"; /* For multiples of 3 */
+            echo "IT"."<br>"; /* For multiples of 5 */
             break;
         default:
             echo $i."<br>"; /* For all non mutiples of 3 and 5 */
